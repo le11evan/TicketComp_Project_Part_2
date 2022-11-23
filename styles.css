@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background: #131313;
+  background: #2b2a2a;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -127,7 +127,7 @@
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: #13133;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -242,6 +242,7 @@
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: 700;
+  padding-left: 60px;
   color: #fff;
 }
 
