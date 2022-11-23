@@ -16,23 +16,23 @@ searchInput.addEventListener("input", e => {
                   for (let i = 0; i < json._embedded.events.length; i++){
                      const eventName=json._embedded.events[i].name
                      const eventDate=json._embedded.events[i].dates.start.localDate
+                     const eventMinimumPrice=json._embedded.events[i].priceRanges[0].min   
                      const card = eventsCardTemplate.content.cloneNode(true).children[0]
                      const header = card.querySelector("[data-header]")
                      const body = card.querySelector("[data-body]")
-
+                     const body2 = card.querySelector("[data-body2]")
+                     
                      const isVisible = eventName.toLowerCase().includes(value) || eventDate.toLowerCase().includes(value)
-
                      //Hides results but idk what to put before toggle to hide everything
                      //eventName.card.classList.toggle("hide", !isVisible) 
                      
 
                      header.textContent = eventName
-                     body.textContent = eventDate
+                     body.textContent = eventMinimumPrice
+                     body2.textContent = eventDate
                      eventsCardContainer.append(card)
 
-                     //This works to display minimum price but putting it as a const variable does not work for some reason.
-                     //console.log(json._embedded.events[i].priceRanges[0].min);             this works
-                     //const eventMinimumPrice=json._embedded.events[i].priceRanges[0].min   this does not work
+                    
                   }
                   
                   
