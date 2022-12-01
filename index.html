@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="format.css">
+    <script src="jquery.js"></script>
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="search-wrapper">
+        <label for="search">Search Events</label>
+        <input type="search" id="search" data-search>
+    </div>
+    <div class="events-cards" data-events-cards-container> </div>
+    <template data-events-template>
+        <div class="card">
+            <div class="body">Ticketmaster</div>
+            <div class="header" data-header></div>
+            <div class="body" data-body></div>
+            <div class="body" data-body2></div>
+        </div>
+    </template>
+    <div class="events-cards" data-events-cards-container2> </div>
+    <template data-events-template2>
+        <div class="card">
+            <div class="body">SeatGeek</div>
+            <div class="header" data-header></div>
+            <div class="body" data-body></div>
+            <div class="body" data-body2></div>
+        </div>
+    </template>
+    
+</body>
+</html>
