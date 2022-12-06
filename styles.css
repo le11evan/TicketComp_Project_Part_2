@@ -589,3 +589,39 @@
   background: #4837ff;
   cursor: pointer;
 }
+
+.user-cards {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: .25rem;
+  margin-top: 1rem;
+}
+
+.card {
+  position: relative;
+  width: 22.3%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
+  /*align-items: center;*/
+  padding: 15px 40px;
+  max-width: 700px;
+  top: -285px;
+  left: 400px;
+}
+
+.card > .header {
+  margin-bottom: .25rem;
+}
+
+.card > .body {
+  font-size: .8rem;
+  color: white;
+}
+
+.card > .header{
+  font-size: rem;
+  color: white;
+}
+.hide {
+  display: none;
+}
