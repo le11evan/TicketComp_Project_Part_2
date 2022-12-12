@@ -225,7 +225,7 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .main__content h2 {
@@ -237,7 +237,7 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .main__content p {
@@ -245,7 +245,7 @@
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .main__button {
