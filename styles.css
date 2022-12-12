@@ -225,6 +225,7 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  margin-left: 50px;
 }
 
 .main__content h2 {
@@ -236,14 +237,15 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  margin-left: 50px;
 }
 
 .main__content p {
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: 700;
-  padding-left: 60px;
   color: #fff;
+  margin-left: 50px;
 }
 
 .main__button {
@@ -550,6 +552,8 @@
   display: flex;
   align-items: center;
   justify-content: left;
+  padding: 45px;
+  margin-left: 10px;
 }
 
 .searchbar__form {
@@ -560,7 +564,7 @@
   display: flex;
   align-items: center;
   border-radius: 60px;
-  padding: 10px 20px;
+  padding: 0px 20px;
 }
 
 .searchbar__form input {
@@ -570,7 +574,8 @@
   outline: none;
   padding: 24px 20px;
   font-size: 20px;
-  color: #cac7ff
+  color: #cac7ff;
+  
 }
 
 ::placeholder {
