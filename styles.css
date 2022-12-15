@@ -127,7 +127,7 @@
   }
 
   .navbar__menu.active {
-    background: #13133;
+    background: #131333;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -295,7 +295,7 @@
 
 #main__img {
   height: 80%;
-  width 80%;
+  width: 80%;
 }
 
 /* Mobile Responsive */
